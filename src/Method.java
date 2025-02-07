@@ -13,7 +13,7 @@ public class Method {
         try {
             return 100 / n1;
         } catch (ArithmeticException e) {
-            System.out.println("Cannot divide by zero!");
+            System.out.println(e.getMessage());
         }
         return 0;
     }
